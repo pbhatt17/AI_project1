@@ -1,5 +1,3 @@
-The issue is with the indentation of the `- name: Lint with flake8` line. It should be at the same level as the `- name: Install dependencies` line. Here is the corrected YAML:
-
 name: Python application
 
 on:
@@ -39,5 +37,3 @@ jobs:
     - name: Mock Deployment
       run: |
         echo "Deploying application..."
-
-YAML is very sensitive to indentation, so always ensure that your indentation is correct.
